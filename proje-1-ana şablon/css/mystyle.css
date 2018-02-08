@@ -1,4 +1,176 @@
 
 body{
+	font-family: 'Montserrat', sans-serif;
+}
+.box{
+	width: 100%;
+	height: 50px;
+	background-color: red;
+}
+.box2{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+.row-top-bg{
+  background-color: #45505c;
+  border-top: 3px solid #ffc107;
+}
+.top-right-left li, p{
+  text-decoration: none;
+  list-style: none;
+  float: left;
+  padding-left: 30px;
+  color: #ffc107;
+  padding-top: 14px;
+}
+.top-right-left a{
+  color: #fff;
+  text-decoration: none;
+}
+.top-right-left img{
+  padding-right: 10px;
+}
+.top-right-left a:hover{
+  color: #ffc107;
+}
+.paddingtop14px{
+  padding-top: 14px;
+}
+.myaccount-css{
+  float: left;
+}
+.myaccount-css .btn-primary{
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0px;
+  border-color: none;
+  padding-right: 50px;
+}
+.myaccount-css .btn-primary:hover{
+  background-color: transparent !important;
+  color: #ffc107;
+  border-color: none !important;
+}
+.modal-top-bg{
+  background-color: #ffc107;
+  color: #fff;
+}
+.modal-top-bg span{
+  color: #fff;
+  font-size: 27px;
 
 }
+.remember-password a{
+  text-decoration: none;
+  color: #ffc107;
+  float: right;
+}
+.remember-password{
+  padding-bottom: 20px;
+}
+.login-button{
+    width: 100%;
+    border: none;
+    background-color: #e6eaed;
+    border-radius: 0px;
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+    height: 40px;
+}
+.login-button:hover{
+    border: 1px solid grey;
+    background-color: #ffffff;
+    color: grey;
+}
+
+.modal-footer-bg{
+  background-color: #ffc107;
+  text-align: center;
+}
+.modal-footer-bg span, a{
+  text-decoration: none;
+  color: #fff;
+}
+.modal-footer-bg a{
+  border-bottom: 1px solid #fff;
+}
+.modal-footer-bg a:hover{
+  text-decoration: none;
+  color: #ffffff;
+}
+.modal-content-width{
+    width: 65%;
+    margin: auto;
+}
+.modal-body-css{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.modal-body-css input{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+  border-radius: 0px;
+}
+
+/**** hover dropdown *****/
+
+/* bootstrap dropdown hover menu*/
+
+.body-wrap {
+  min-height: 700px;
+}
+
+.body-wrap {
+  position: relative;
+  z-index: 0;
+}
+
+.body-wrap:before,
+.body-wrap:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 260px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(26, 49, 95, 1)), color-stop(100%, rgba(26, 49, 95, 0)));
+  background: linear-gradient(to bottom, rgba(26, 49, 95, 1) 0%, rgba(26, 49, 95, 0) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1a315f', endColorstr='#001a315f', GradientType=0);
+}
+
+.body-wrap:after {
+  top: auto;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(26, 49, 95, 0) 0%, rgba(26, 49, 95, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#001a315f', endColorstr='#1a315f', GradientType=0);
+}
+.dropdown-css{
+  list-style: none;
+  float: left;
+  padding-right: 50px;
+}
+.dropdown-css .dropdown-menu{
+  min-width: 72px;
+  background-color: #45505c;
+  border: none;
+}
+.dropdown-css .dropdown-menu li a{
+  color: #fff;
+}
+.dropdown-css .dropdown-menu li a:hover{
+  color: #ffc107;
+  background-color: transparent;
+}
+.dropdown-css .dropdown a:hover{
+  text-decoration: none;
+  color: #ffc107 !important;
+}
+
+/***** /hover dropdown ****/
